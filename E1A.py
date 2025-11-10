@@ -180,7 +180,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/Qweyuii/blob/main/key.txt").text
+    DARK=requests.get("https://github.com/Qweyuii/blob/main/Approval.txt").text
     if id in DARK:
         Main()
     else:
